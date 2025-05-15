@@ -1,8 +1,9 @@
 def compute_prime_factors(n):
     """Compute the prime factors of a given number n."""
-    i = 5 # This is an error
+    i = 2
     factors = []
     while i * i <= n:
+        print(f"Current i: {i}, Current n: {n}") # This is Max's debug step
         if n % i:
             i += 1
         else:
