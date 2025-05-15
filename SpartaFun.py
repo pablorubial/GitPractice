@@ -10,6 +10,9 @@ def sparta():
             print("Sparta")
         elif i % 5 == 0:
             print("Fun")
+        elif i % 7 == 0:
+            print("SpartaFun")
         else:
             print(i)
+
 # This function prints numbers from 1 to 100, replacing multiples of 3 with "Sparta", multiples of 5 with "Fun", and multiples of both with "SpartaFun".
