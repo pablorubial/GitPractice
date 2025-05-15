@@ -11,4 +11,5 @@ def compute_prime_factors(n):
             factors.append(i)
     if n > 1:
         factors.append(n)
+    print("This function was implemented by Pablo")
     return factors
